@@ -38,7 +38,7 @@ sudo chgrp -R vagrant /home/vagrant/anaconda
 # Install Clone repo, install Python dependencies
 #
 cd /home/vagrant
-git clone https://github.com/rjurney/Agile_Data_Code_2
+git clone https://github.com/kunlabora/Agile_Data_Code_2
 cd /home/vagrant/Agile_Data_Code_2
 export PROJECT_HOME=/home/vagrant/Agile_Data_Code_2
 echo "export PROJECT_HOME=/home/vagrant/Agile_Data_Code_2" | sudo tee -a /home/vagrant/.bash_profile
@@ -80,7 +80,7 @@ sudo chgrp -R vagrant /home/vagrant/hadoop
 #
 echo "" | tee -a $LOG_FILE
 echo "Downloading and installing Spark 2.2.1 ..." | tee -a $LOG_FILE
-curl -Lko /tmp/spark-2.2.1-bin-without-hadoop.tgz http://apache.mirrors.lucidnetworks.net/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
+curl -Lko /tmp/spark-2.2.1-bin-without-hadoop.tgz https://archive.apache.org/dist/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
 mkdir -p /home/vagrant/spark
 cd /home/vagrant
 tar -xvf /tmp/spark-2.2.1-bin-without-hadoop.tgz -C spark --strip-components=1
