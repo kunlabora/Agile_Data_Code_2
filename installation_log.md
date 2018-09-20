@@ -5,6 +5,7 @@
 Install vagrant: https://www.vagrantup.com/downloads.html
 
 Install virtual box: https://www.virtualbox.org/wiki/Downloads
+(requires 2 installation attempts to allow special permissions when the 1st attempt fails. If someone knows why this special permission is needed, I d be interessted to hear (Bruno))
 
 Adapt vagrant file:
 * https://github.com/viveksatasiya/vagrant-prometheus-grafana/issues/1
