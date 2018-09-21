@@ -109,7 +109,7 @@ From PySpark:
         ```
     2) Run this curl statement in your bash terminal
         ```
-        curl -XPUT 'localhost:9200/agile_data_science/test/1?pretty' -H 'Content-Type: application/json' -d’{“name”: “Russel Jurney”, “message”: “trying out Elasticsearch”}’
+        curl -XPUT 'localhost:9200/agile_data_science/test/1?pretty' -H 'Content-Type: application/json' -d'{"name": "Russel Jurney", "message": "trying out Elasticsearch"}'
         ```
         This shows an error:
         ```
